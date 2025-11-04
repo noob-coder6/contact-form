@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Links
 
-- **Solution URL:** [GitHub Repository](https://github.com/your-username/contact-form-solution)
+- **Solution URL:** [GitHub Repository](https://github.com/noob-coder6/contact-form.git)
 - **Live Site URL:** [Live Demo](https://your-username.github.io/contact-form-solution/)
 
 ## My process
@@ -49,7 +49,6 @@ This project was a fantastic opportunity to build a form that is not only visual
 #### Accessible Real-Time Validation
 
 I implemented a robust validation system that provides immediate feedback. By programmatically linking error messages to their corresponding inputs with `aria-describedby` and managing the `aria-invalid` state, screen reader users are instantly informed of any validation errors.
-
 ```javascript
 function showError(field, message) {
     field.setAttribute('aria-invalid', 'true');
@@ -59,18 +58,17 @@ function showError(field, message) {
     errorContainer.textContent = message;
     errorContainer.style.display = 'block';
 }
+  ```
 
-#### Continued development
+### Continued development
 
 In the future, I plan to enhance this project by:
 
-  -Adding Animations: Incorporating subtle, accessible animations for the appearance of error messages and the success toast, respecting the prefers-reduced-motion media query.
-  
-  -Refactoring JavaScript: Breaking down the script into smaller, reusable modules for better organization and maintainability.
-  
-  -Implementing Unit Tests: Writing tests for the validation functions to ensure they are robust and reliable.
+- **Adding Animations:** Incorporating subtle, accessible animations for the appearance of error messages and the success toast, respecting the prefers-reduced-motion media query.
+- **Refactoring JavaScript:** Breaking down the script into smaller, reusable modules for better organization and maintainability.
+- **Implementing Unit Tests:** Writing tests for the validation functions to ensure they are robust and reliable.
 
-Author
-Your Name
-Frontend Mentor: @noob-coder6 - []
-GitHub: @noob-coder6 - []
+## Author
+
+- **Frontend Mentor:** [@noob-coder6](https://www.frontendmentor.io/profile/noob-coder6)
+- **GitHub:** [@noob-coder6](https://github.com/noob-coder6)
