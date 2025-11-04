@@ -29,7 +29,7 @@ Users should be able to:
 ### Links
 
 - **Solution URL:** [GitHub Repository](https://github.com/noob-coder6/contact-form.git)
-- **Live Site URL:** [Live Demo](https://your-username.github.io/contact-form-solution/)
+- **Live Site URL:** [Live Demo](https://noob-coder6.github.io/contact-form/)
 
 ## My process
 
